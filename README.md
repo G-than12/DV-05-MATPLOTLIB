@@ -343,6 +343,7 @@ Berikut adalah pembedahan terperinci baris demi baris terhadap 10 langkah kerja 
 ### 🔹 Langkah 1 — Menyiapkan Notebook dan Mengimpor Library
 
 ```python
+import os
 import matplotlib
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -591,6 +592,8 @@ print(f"Koefisien Korelasi Pearson: {nilai_korelasi:.3f}")
 ### 🔹 Langkah 10 — Menyimpan Grafik ke File Gambar Profesional (`savefig`)
 
 ```python
+import os
+
 nama_file_gambar = "scatter_hp_mpg.png"
 
 fig, ax = plt.subplots(figsize=(6, 4))
